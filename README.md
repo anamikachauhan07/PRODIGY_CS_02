@@ -15,18 +15,13 @@ This project was developed as part of the **Prodigy Infotech Cyber Security Inte
 - Simple command-line interface
 - Fast and lightweight implementation
 
----
-
 ## 🛠️ Technologies Used
 
 - Python 3
 - Pillow (PIL)
 
----
-
 ## 📂 Project Structure
 
-```text
 PRODIGY_CS_02/
 │
 ├── image_encryption.py
@@ -47,8 +42,6 @@ Since XOR is reversible:
 decrypted_pixel = encrypted_pixel ^ secret_key
 
 Using the same secret key restores the original image.
-
----
 
 ## 📦 Installation
 
