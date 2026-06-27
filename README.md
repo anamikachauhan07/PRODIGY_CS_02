@@ -4,7 +4,7 @@
 
 A Python-based image encryption and decryption tool that uses pixel manipulation techniques to secure image files. The application applies a mathematical XOR operation to each pixel value using a user-defined secret key, allowing users to encrypt and decrypt images while preserving image integrity.
 
-This project was developed as part of the **Prodigy Infotech Cyber Security Internship (Task 02)**
+This project was developed as part of the **Prodigy Infotech Cyber Security Internship (Task 02)**.
 
 ## 🚀 Features
 
@@ -15,29 +15,26 @@ This project was developed as part of the **Prodigy Infotech Cyber Security Inte
 - Simple command-line interface
 - Fast and lightweight implementation
 
+---
+
 ## 🛠️ Technologies Used
 
 - Python 3
 - Pillow (PIL)
 
+---
 
 ## 📂 Project Structure
 
+```text
 PRODIGY_CS_02/
 │
 ├── image_encryption.py
-
-
 ├── ima.jpg
-
-
 ├── encrypted.png
-
-
 ├── recovered.jpg
-
-
 └── README.md
+
 
 ## ⚙️ How It Works
 
@@ -50,6 +47,8 @@ Since XOR is reversible:
 decrypted_pixel = encrypted_pixel ^ secret_key
 
 Using the same secret key restores the original image.
+
+---
 
 ## 📦 Installation
 
@@ -65,6 +64,7 @@ pip install pillow
 ## ▶️ Usage
 
 Run the program:
+
 python image_encryption.py
 
 ## 🔐 Encryption Process
@@ -82,6 +82,28 @@ python image_encryption.py
 - BMP
 - Any image format supported by Pillow
 
+## 🧪 Example Workflow
+
+### Encryption
+
+Original Image
+       │
+       ▼
+ XOR Secret Key
+       │
+       ▼
+Encrypted Image
+
+### Decryption
+
+Encrypted Image
+       │
+       ▼
+Same Secret Key
+       │
+       ▼
+Recovered Image
+
 ## 🎯 Learning Objectives
 
 This project demonstrates:
@@ -98,6 +120,7 @@ This project demonstrates:
 **Anamika Chauhan**
 
 Cyber Security Intern – Prodigy Infotech
+
 GitHub: https://github.com/anamikachauhan07
 
 ## 📜 License
