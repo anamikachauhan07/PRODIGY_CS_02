@@ -20,17 +20,6 @@ This project was developed as part of the **Prodigy Infotech Cyber Security Inte
 - Python 3
 - Pillow (PIL)
 
-## 📂 Project Structure
-
-PRODIGY_CS_02/
-│
-├── image_encryption.py
-├── ima.jpg
-├── encrypted.png
-├── recovered.jpg
-└── README.md
-
-
 ## ⚙️ How It Works
 
 The program encrypts every pixel using the XOR operation.
